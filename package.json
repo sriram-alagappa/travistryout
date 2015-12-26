@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^0.4.5",
     "gulp": "^3.9.0",
     "gulp-jshint": "^2.0.0",
     "gulp-util": "^3.0.7",
