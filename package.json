@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "grunt --verbose"
+    "test": ""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "gulp": "^3.9.0",
+    "gulp": "*",
     "gulp-jshint": "^2.0.0",
-    "gulp-util": "^3.0.7",
-    "jshint-stylish": "^2.1.0"
+    "gulp-util": "*",
+    "jshint": "^2.9.1-rc2",
+    "jshint-stylish": "*"
   }
 }
