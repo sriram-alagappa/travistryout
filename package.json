@@ -10,9 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "*",
-    "gulp-jshint": "^2.0.0",
+    "gulp-jshint": "*",
     "gulp-util": "*",
-    "jshint": "^2.9.1-rc2",
+    "jshint": "*",
     "jshint-stylish": "*"
   }
 }
