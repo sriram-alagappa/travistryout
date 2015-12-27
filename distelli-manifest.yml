@@ -11,6 +11,8 @@ sriram/sreenodeapp2:
   PkgInclude:
     - echo "PkgInclude Starting."
     - '*'
+  PkgExclude:
+    - node_modules/
   Build:
     - echo "Build Starting."
     - npm install
