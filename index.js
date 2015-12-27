@@ -14,7 +14,10 @@ var express = require("express");
 var expressServer = express();
 
 expressServer.get("/",function(req,res){
-	res.write("hello Sriram");
+	res.send("hello Sriram");
 });
 
-expressServer.listen(8080)
+expressServer.listen(8080,function(){
+	console.log("server up");
+
+});
