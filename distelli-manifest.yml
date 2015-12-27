@@ -9,8 +9,7 @@ sriram/sreenodeapp2:
   #
 
   PkgInclude:
-    - index.js
-    - node_modules/*
+    - *
   Build:
     - npm install
     - npm test
