@@ -9,7 +9,7 @@ sriram/sreenodeapp2:
   #
 
   PkgInclude:
-    - server.js
+    - index.js
     - node_modules/*
   Build:
     - npm install
