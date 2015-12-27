@@ -9,7 +9,7 @@ sriram/sreenodeapp2:
   #
 
   PkgInclude:
-    - *
+    - '*'
   Build:
     - npm install
     - npm test
