@@ -14,5 +14,8 @@
     "gulp-util": "*",
     "jshint": "*",
     "jshint-stylish": "*"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
