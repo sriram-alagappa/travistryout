@@ -18,14 +18,11 @@ sriram/sreenodeapp2:
     - npm install
     - npm test
 
-  PreInstall:
+  PostInstall:
     - echo "PreInstall Starting."
     - sudo apt-get install nodejs -y
     - sudo apt-get install npm -y
     - sudo npm install
-
-  PostInstall:
-    - echo "PostInstall Starting."
 
   Exec:
     - echo "Exec Starting."
