@@ -9,16 +9,17 @@ sriram/sreenodeapp2:
   #
 
   PkgInclude:
+    - echo "PkgInclude Starting."
     - '*'
   Build:
+    - echo "Build Starting."
     - npm install
     - npm test
   PreInstall:
+    - echo "PreInstall Starting."
     - sudo apt-get install nodejs -y
     - sudo apt-get install npm -y
     - npm install -g mocha
-    #- sudo apt-get install npm -y
-    - echo "PreInstall Starting."
   PostInstall:
     - echo "PostInstall Starting."
     # - npm install
